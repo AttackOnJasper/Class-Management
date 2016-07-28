@@ -12,6 +12,8 @@
 		EC220F021D4A591500EB9450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC220F001D4A591500EB9450 /* Main.storyboard */; };
 		EC220F041D4A591500EB9450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC220F031D4A591500EB9450 /* Assets.xcassets */; };
 		EC220F071D4A591500EB9450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC220F051D4A591500EB9450 /* LaunchScreen.storyboard */; };
+		EC220F101D4A5EAC00EB9450 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC220F0F1D4A5EAC00EB9450 /* Settings.bundle */; };
+		EC220F121D4A5F0000EB9450 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC220F111D4A5F0000EB9450 /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EC220F031D4A591500EB9450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC220F061D4A591500EB9450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC220F081D4A591500EB9450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC220F0F1D4A5EAC00EB9450 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		EC220F111D4A5F0000EB9450 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,9 @@
 		EC220EFB1D4A591500EB9450 /* Class-Management */ = {
 			isa = PBXGroup;
 			children = (
+				EC220F141D4A5F8200EB9450 /* Model */,
+				EC220F131D4A5F7600EB9450 /* UI */,
+				EC220F0E1D4A5E6000EB9450 /* Settings */,
 				EC220EFC1D4A591500EB9450 /* AppDelegate.swift */,
 				EC220EFE1D4A591500EB9450 /* ViewController.swift */,
 				EC220F001D4A591500EB9450 /* Main.storyboard */,
@@ -62,6 +69,29 @@
 				EC220F081D4A591500EB9450 /* Info.plist */,
 			);
 			path = "Class-Management";
+			sourceTree = "<group>";
+		};
+		EC220F0E1D4A5E6000EB9450 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EC220F0F1D4A5EAC00EB9450 /* Settings.bundle */,
+				EC220F111D4A5F0000EB9450 /* AppSettings.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		EC220F131D4A5F7600EB9450 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		EC220F141D4A5F8200EB9450 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC220F101D4A5EAC00EB9450 /* Settings.bundle in Resources */,
 				EC220F071D4A591500EB9450 /* LaunchScreen.storyboard in Resources */,
 				EC220F041D4A591500EB9450 /* Assets.xcassets in Resources */,
 				EC220F021D4A591500EB9450 /* Main.storyboard in Resources */,
@@ -137,6 +168,7 @@
 			files = (
 				EC220EFF1D4A591500EB9450 /* ViewController.swift in Sources */,
 				EC220EFD1D4A591500EB9450 /* AppDelegate.swift in Sources */,
+				EC220F121D4A5F0000EB9450 /* AppSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +318,7 @@
 				EC220F0D1D4A591500EB9450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

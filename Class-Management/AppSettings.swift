@@ -1,5 +1,5 @@
 //
-//  AppSetting.swift
+//  AppSettings.swift
 //  Class-Management
 //
 //  Created by Jasper Wang on 7/28/16.
@@ -9,5 +9,6 @@
 import Foundation
 
 class AppSettings {
-
+    static let sharedInstance = AppSettings()
+    
 }
