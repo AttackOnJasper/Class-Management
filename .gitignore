@@ -1,2 +1,17 @@
-*.o
-*.a
+
+## Build generated
+build/
+DerivedData
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-c & Swift
+*.ipa
+*.hmap
+
+# CocoaPods
+Pods/
